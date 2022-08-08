@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>30-Label标签</title>
+</head>
+<body>
+<!--
+1.默认情况下文字和输入框是没有关联关系的，也就是说点击文字输入框不会聚焦，如果想要点击文字让对应输入框聚焦，那么就需要让文字和输入框进行绑定
+
+2.要想让输入框和文字绑定在一起，那么我们可以使用label标签
+
+3.绑定的格式：
+3.1将文字利用label标签包裹起来
+3.2给输入框添加一个id属性
+3.3在label标签中通过for属性和输入框中id进行绑定即可
+<label for="account">账号：</label><input type="text" id="account"><br>
+-->
+<form>
+  <!--  明文的输入框-->
+    <label for="account">账号：</label><input type="text" id="account"><br>
+  <!--  暗文输入框-->
+    <label for="pwd">密码：</label><input type="password" id="pwd"><br>
+
+
+</form>
+</body>
+</html>

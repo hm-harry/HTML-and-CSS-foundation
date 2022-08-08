@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路径练习</title>
+</head>
+<body>
+<!--
+注意点：
+1.企业开发编写路径统一使用反斜杠/，不要使用正斜杠，因为将来我们开发的程序可能会部署到其他操作系统中，使用正斜杠会出现问题
+
+2.在企业开发中不使用绝对路径，因为可移植性不好
+-->
+
+<!--同级情况-->
+<img src="lu.jpg">
+<!--下级情况-->
+<img src="images/lu.jpg">
+<img src="images/a/lu.jpg">
+<img src="images/a/b/lu.jpg">
+<!--上级关系-->
+<img src="../lu.jpg">
+
+</body>
+</html>

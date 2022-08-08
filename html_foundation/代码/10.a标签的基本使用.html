@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a标签的基本使用</title>
+</head>
+<body>
+<!--
+什么是a标签？
+a标签的作用：用于控制页面和页面之间跳转
+a标签的格式：<a href = "指定需要跳转的目标界面">需要展现给用户看的内容</a>
+
+a标签中有一个叫做target的属性，这个属性的作业就是专门控制如何跳转
+_self:用于在当前选项卡中跳转，不新建窗口
+_blank:在新的选项卡中跳转
+
+a标签中还有一个属性，叫做title。a标签中的title和img标签中的title一样，都是控制鼠标悬停时的显示的提示文本
+
+注意点：
+1.a标签不仅可以让文字点击，还可以让图片能够被点击
+2.一个a标签必须有一个href属性
+3.如果通过a标签的href属性指定一个URL地址，那么必须在地址前加入http://或https://
+4.a标签的href属性除了可以指定一个网络地址以外，还可以指定一个本地地址
+-->
+
+<p><a href="https://www.baidu.com/s?tn=baidutop10&rsv_idx=2&wd=%E5%8D%97%E4%BA%AC%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5">南京天气</a></p>
+<p><a href="https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9834182606096096463%22%7D&n_type=0&p_from=1">
+  <img src="lu.jpg" alt="图片加载错误" width="150">
+</a></p>
+<p><a href="02-字符集问题.html">02-字符集问题.html</a></p>
+<p><a href="https://www.baidu.com/s?tn=baidutop10&rsv_idx=2&wd=%E5%8D%97%E4%BA%AC%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5" target="_self" title="会查看南京天气">南京天气</a></p>
+</body>
+</html>
